@@ -1,3 +1,4 @@
+
 FROM node:lts-buster
 
 RUN apt-get update && \
@@ -6,23 +7,14 @@ RUN apt-get update && \
   imagemagick \
   webp && \
   apt-get upgrade -y && \
-  npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
-  
-RUN git clone https://github.com/holyrag/Finisher-V2
-WORKDIR /root/Finisher-V2
-
-# Clear npm cache and remove node_modules directories
-RUN npm cache clean --force
-RUN rm -rf ~/node_modules 
 
 COPY package.json .
 
-RUN npm install pm2 -g
-RUN npm install --legacy-peer-deps
+RUN npm install && npm install qrcode-terminal
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5000
 
-CMD ["npm","start" ]
+CMD ["node", "index.js", "--server"]
