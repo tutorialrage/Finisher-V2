@@ -1,26 +1,389 @@
-function _0x17dc(_0x27b241,_0x9eda47){const _0x5b1ebf=_0x5b1e();return _0x17dc=function(_0x17dc62,_0x14539a){_0x17dc62=_0x17dc62-0x19b;let _0x293e28=_0x5b1ebf[_0x17dc62];return _0x293e28;},_0x17dc(_0x27b241,_0x9eda47);}function _0x5b1e(){const _0x3d17ba=['notify','key','Chrome','•»»————>\x20ᕼOᒪYᖇᗩGE᙭ITᗩᑕᕼI\x20𝐶𝑅𝐴𝑆𝐻\x20<————««•','2331235VCtRqj','makeWASocket','494235ZEVdhj','remoteJid','connection.update','deeppink','5508FQrkRn','decodeJid','connectionReplaced','startsWith','white','./all/place','length','requestPairingCode','message','child','Connection\x20closed,\x20reconnecting...','INI\x20PAIRING\x20CODENYA\x20BRO:\x20','public','close','red','2608476cXdIml','Restart\x20Required,\x20Restarting...','Connection\x20TimedOut,\x20Reconnecting...','./session','question','timedOut','type','Connection\x20lost,\x20trying\x20to\x20reconnect','log','Ubuntu','contacts.update','exit','12028iEdfdh','output','badSession','silent','ephemeralMessage','./all/global','readMessages','</>\x20Finisher\x20v2\x20is\x20Connected...','Hello','[•]\x20Owner\x20:\x20:\x20ᕼOᒪYᖇᗩGE\x20ITᗩᑕᕼI\x0a[!]\x20PUT\x20YOUR\x20WHATSAPP\x20NUMBER\x20TO\x20GET\x20CODE\x20START\x20234\x2081\x0a','store','status@broadcast','stdout','Bad\x20Session\x20File,\x20Please\x20Delete\x20Session\x20and\x20Scan\x20Again','restartRequired','smsg','[SYSTEM]','connecting','registered','Device\x20Logged\x20Out,\x20Please\x20Scan\x20Again\x20And\x20Run.','contacts','creds','keys','uncaughtException','14248rmYqeh','stdin','logout','Connection\x20Replaced,\x20Another\x20New\x20Session\x20Opened,\x20Please\x20Close\x20Current\x20Session\x20First','385217iKiKig','error','Caught\x20exception:\x20','authState','1573372TAvXXd','240iIowpG','loggedOut','statusCode','sendMessage','Error:\x20Stream\x20Errored\x20(unknown)','readline','bold','connectionLost','fromMe','open'];_0x5b1e=function(){return _0x3d17ba;};return _0x5b1e();}const _0x1fbe1d=_0x17dc;(function(_0xff1a1f,_0x5a99a8){const _0x3eae48=_0x17dc,_0x8c46a5=_0xff1a1f();while(!![]){try{const _0x4ecc6a=-parseInt(_0x3eae48(0x1ea))/0x1+parseInt(_0x3eae48(0x19e))/0x2+-parseInt(_0x3eae48(0x19f))/0x3*(parseInt(_0x3eae48(0x1ce))/0x4)+-parseInt(_0x3eae48(0x1ad))/0x5+-parseInt(_0x3eae48(0x1c2))/0x6+parseInt(_0x3eae48(0x1af))/0x7+-parseInt(_0x3eae48(0x1e6))/0x8*(-parseInt(_0x3eae48(0x1b3))/0x9);if(_0x4ecc6a===_0x5a99a8)break;else _0x8c46a5['push'](_0x8c46a5['shift']());}catch(_0x42b7bf){_0x8c46a5['push'](_0x8c46a5['shift']());}}}(_0x5b1e,0x66a8d),require(_0x1fbe1d(0x1d3)));const func=require(_0x1fbe1d(0x1b8)),readline=require(_0x1fbe1d(0x1a4)),usePairingCode=!![],question=_0xa102ae=>{const _0x4bf41d=_0x1fbe1d,_0x3a0f4c=readline['createInterface']({'input':process[_0x4bf41d(0x1e7)],'output':process[_0x4bf41d(0x1da)]});return new Promise(_0x2ee72a=>{const _0x118dd3=_0x4bf41d;_0x3a0f4c[_0x118dd3(0x1c6)](_0xa102ae,_0x2ee72a);});};async function startSesi(){const _0x58098a=_0x1fbe1d,_0xd1f9af=makeInMemoryStore({'logger':pino()[_0x58098a(0x1bc)]({'level':_0x58098a(0x1d1),'stream':_0x58098a(0x1d8)})}),{state:_0x4b0cd1,saveCreds:_0x54ae6e}=await useMultiFileAuthState(_0x58098a(0x1c5)),{version:_0x1f1305,isLatest:_0x36fc7b}=await fetchLatestBaileysVersion();console[_0x58098a(0x1ca)](chalk[_0x58098a(0x1c1)]['bold'](_0x58098a(0x1ac)));const _0x19d48d={'version':_0x1f1305,'keepAliveIntervalMs':0x7530,'printQRInTerminal':!usePairingCode,'logger':pino({'level':'fatal'}),'auth':_0x4b0cd1,'browser':[_0x58098a(0x1cb),_0x58098a(0x1ab),'20.0.04']},_0x133f3b=func[_0x58098a(0x1ae)](_0x19d48d);if(usePairingCode&&!_0x133f3b[_0x58098a(0x19d)][_0x58098a(0x1e3)][_0x58098a(0x1e0)]){const _0x78f5ec=await question(_0x58098a(0x1d7)),_0x26dbfd=await _0x133f3b[_0x58098a(0x1ba)](_0x78f5ec['trim']());console[_0x58098a(0x1ca)](chalk['red'][_0x58098a(0x1a5)](_0x58098a(0x1be)+_0x26dbfd+'\x20'));}return _0xd1f9af['bind'](_0x133f3b['ev']),_0x133f3b['ev']['on'](_0x58098a(0x1b1),async _0x325014=>{const _0x3fc690=_0x58098a,{connection:_0x116a2a,lastDisconnect:_0x159d13}=_0x325014;if(_0x116a2a===_0x3fc690(0x1c0)){const _0x3b270e=new Boom(_0x159d13?.[_0x3fc690(0x19b)])?.[_0x3fc690(0x1cf)][_0x3fc690(0x1a1)];console[_0x3fc690(0x1ca)](color(_0x159d13[_0x3fc690(0x19b)],_0x3fc690(0x1b2)));if(_0x159d13[_0x3fc690(0x19b)]==_0x3fc690(0x1a3))process['exit']();else{if(_0x3b270e===DisconnectReason[_0x3fc690(0x1d0)])console[_0x3fc690(0x1ca)](color(_0x3fc690(0x1db))),process['exit']();else{if(_0x3b270e===DisconnectReason['connectionClosed'])console[_0x3fc690(0x1ca)](color(_0x3fc690(0x1de),_0x3fc690(0x1b7)),color(_0x3fc690(0x1bd),'deeppink')),process[_0x3fc690(0x1cd)]();else{if(_0x3b270e===DisconnectReason[_0x3fc690(0x1a6)])console[_0x3fc690(0x1ca)](color(_0x3fc690(0x1de),_0x3fc690(0x1b7)),color(_0x3fc690(0x1c9),_0x3fc690(0x1b2))),process[_0x3fc690(0x1cd)]();else{if(_0x3b270e===DisconnectReason[_0x3fc690(0x1b5)])console[_0x3fc690(0x1ca)](color(_0x3fc690(0x1e9))),_0x133f3b[_0x3fc690(0x1e8)]();else{if(_0x3b270e===DisconnectReason[_0x3fc690(0x1a0)])console['log'](color(_0x3fc690(0x1e1))),_0x133f3b[_0x3fc690(0x1e8)]();else{if(_0x3b270e===DisconnectReason[_0x3fc690(0x1dc)])console[_0x3fc690(0x1ca)](color(_0x3fc690(0x1c3))),await startSesi();else _0x3b270e===DisconnectReason[_0x3fc690(0x1c7)]&&(console['log'](color(_0x3fc690(0x1c4))),startSesi());}}}}}}}else{if(_0x116a2a===_0x3fc690(0x1df))start('1','Connecting...');else _0x116a2a===_0x3fc690(0x1a8)&&(success('1',_0x3fc690(0x1d6)),_0x133f3b[_0x3fc690(0x1a2)]('2348144723858@s.whatsapp.net',{'text':_0x3fc690(0x1d5)}),autoJoin&&_0x133f3b['groupAcceptInvite'](codeInvite));}}),_0x133f3b['ev']['on']('messages.upsert',async _0x58b7e1=>{const _0x382f8f=_0x58098a;try{m=_0x58b7e1['messages'][0x0];if(!m[_0x382f8f(0x1bb)])return;m[_0x382f8f(0x1bb)]=Object[_0x382f8f(0x1e4)](m[_0x382f8f(0x1bb)])[0x0]===_0x382f8f(0x1d2)?m[_0x382f8f(0x1bb)]['ephemeralMessage'][_0x382f8f(0x1bb)]:m[_0x382f8f(0x1bb)];if(m[_0x382f8f(0x1aa)]&&m[_0x382f8f(0x1aa)][_0x382f8f(0x1b0)]===_0x382f8f(0x1d9))return _0x133f3b[_0x382f8f(0x1d4)]([m[_0x382f8f(0x1aa)]]);if(!_0x133f3b[_0x382f8f(0x1bf)]&&!m[_0x382f8f(0x1aa)][_0x382f8f(0x1a7)]&&_0x58b7e1[_0x382f8f(0x1c8)]===_0x382f8f(0x1a9))return;if(m['key']['id'][_0x382f8f(0x1b6)]('BAE5')&&m['key']['id'][_0x382f8f(0x1b9)]===0x10)return;m=func[_0x382f8f(0x1dd)](_0x133f3b,m,_0xd1f9af),require('./Finisherv2')(_0x133f3b,m,_0xd1f9af);}catch(_0x587231){console['log'](_0x587231);}}),_0x133f3b['ev']['on'](_0x58098a(0x1cc),_0x4170e4=>{const _0x5e2623=_0x58098a;for(let _0x1fec75 of _0x4170e4){let _0x5caa70=_0x133f3b[_0x5e2623(0x1b4)](_0x1fec75['id']);if(_0xd1f9af&&_0xd1f9af[_0x5e2623(0x1e2)])_0xd1f9af[_0x5e2623(0x1e2)][_0x5caa70]={'id':_0x5caa70,'name':_0x1fec75[_0x5e2623(0x1a9)]};}}),_0x133f3b[_0x58098a(0x1bf)]=!![],_0x133f3b['ev']['on']('creds.update',_0x54ae6e),_0x133f3b;}startSesi(),process['on'](_0x1fbe1d(0x1e5),function(_0x52cf23){const _0x25ffd9=_0x1fbe1d;console[_0x25ffd9(0x1ca)](_0x25ffd9(0x19c),_0x52cf23);const {
-   spawn
-} = require('child_process')
-const path = require('path')
+/*
+› Create By zetsubo
+› Base Ori zetsubo
 
-function start() {
-   let args = [path.join(__dirname, 'main.js'), ...process.argv.slice(2)]
-   console.log([process.argv[0], ...args].join('\n'))
-   let p = spawn(process.argv[0], args, {
-         stdio: ['inherit', 'inherit', 'inherit', 'ipc']
-      })
-      .on('message', data => {
-         if (data == 'reset') {
-            console.log('Restarting Bot...')
-            p.kill()
-            start()
-            delete p
-         }
-      })
-      .on('exit', code => {
-         console.error('Exited with code:', code)
-         if (code == '.' || code == 1 || code == 0) start()
-      })
+🌷 KALAU MAU RENAME TARO CREDITS GUA : HW MODS WA & ZetsuboXygen */
+
+//   • [ Recode Bye > ZetsuboXygen777]
+/*   # AND↓
+   THANKS TO >
+  XygenGod777( Watashi / 私 )
+  Hw Mods Wa / Haikal (Base)
+  Adiwajshing (Baileys)
+  whiskeysockets (Baileys)
+  Thunder X7 (Inspirate)
+  Pak Tzy (Inspirate)
+  ♥️ ありがとう
+                 >
+*/
+
+require('./classicconf')
+const { default: makeWASocket, useMultiFileAuthState, useSingleFileAuthState, DisconnectReason, fetchLatestBaileysVersion, generateForwardMessageContent, prepareWAMessageMedia, generateWAMessageFromContent, generateMessageID, downloadContentFromMessage, makeInMemoryStore, jidDecode, getAggregateVotesInPollMessage, proto } = require("@whiskeysockets/baileys")
+const fs = require('fs')
+const pino = require('pino')
+const chalk = require('chalk')
+const path = require('path')
+const axios = require('axios')
+const FileType = require('file-type')
+const yargs = require('yargs/yargs')
+const _ = require('lodash')
+const { Boom } = require('@hapi/boom')
+const PhoneNumber = require('awesome-phonenumber')
+const { imageToWebp, videoToWebp, writeExifImg, writeExifVid } = require('./lib/exif')
+const { smsg, isUrl, generateMessageTag, getBuffer, getSizeMedia, fetchJson, await, sleep } = require('./lib/myfunc')
+//=================================================//
+var low
+try {
+low = require('lowdb')
+} catch (e) {
+low = require('./lib/lowdb')}
+//=================================================//
+const { Low, JSONFile } = low
+const mongoDB = require('./lib/mongoDB')
+//=================================================//
+const port = process.env.PORT || 4000;
+//=================================================//
+const store = makeInMemoryStore({ logger: pino().child({ level: 'silent', stream: 'store' }) })
+//=================================================//
+global.opts = new Object(yargs(process.argv.slice(2)).exitProcess(false).parse())
+global.db = new Low(
+/https?:\/\//.test(opts['db'] || '') ?
+new cloudDBAdapter(opts['db']) : /mongodb/.test(opts['db']) ?
+new mongoDB(opts['db']) :
+new JSONFile(`./src/database.json`)
+)
+global.DATABASE = global.db // Backwards Compatibility
+global.loadDatabase = async function loadDatabase() {
+if (global.db.READ) return new Promise((resolve) => setInterval(function () { (!global.db.READ ? (clearInterval(this), resolve(global.db.data == null ? global.loadDatabase() : global.db.data)) : null) }, 1 * 1000))
+if (global.db.data !== null) return
+global.db.READ = true
+await global.db.read()
+global.db.READ = false
+global.db.data = {
+users: {},
+chats: {},
+game: {},
+database: {},
+settings: {},
+setting: {},
+others: {},
+sticker: {},
+...(global.db.data || {})}
+  global.db.chain = _.chain(global.db.data)}
+loadDatabase()
+//=================================================//
+//=================================================//
+async function connectToWhatsApp() {
+const { state, saveCreds } = await useMultiFileAuthState(global.sessionName)
+const classic = makeWASocket({
+logger: pino({ level: 'silent' }),
+printQRInTerminal: true,
+browser: ['Zetsubo V1','Safari','1.0.0'],
+auth: state})
+//=================================================//
+classic.decodeJid = (jid) => {
+if (!jid) return jid
+if (/:\d+@/gi.test(jid)) {
+let decode = jidDecode(jid) || {}
+return decode.user && decode.server && decode.user + '@' + decode.server || jid
+} else return jid
 }
-start()
- });
+//=================================================//
+classic.ev.on('messages.upsert', async chatUpdate => {
+try {
+mek = chatUpdate.messages[0]
+if (!mek.message) return
+mek.message = (Object.keys(mek.message)[0] === 'ephemeralMessage') ? mek.message.ephemeralMessage.message : mek.message
+if (mek.key && mek.key.remoteJid === 'status@broadcast') return
+if (! classic.public && !mek.key.fromMe && chatUpdate.type === 'notify') return
+if (mek.key.id.startsWith('BAE5') && mek.key.id.length === 16) return
+m = smsg(classic, mek, store)
+require("./classic")(classic, m, chatUpdate, store)
+} catch (err) {
+console.log(err)
+}
+})
+//=================================================//
+classic.ev.on('group-participants.update', async (anu) => {
+if (!wlcm.includes(anu.id)) return
+console.log(anu)
+try {
+let metadata = await classic.groupMetadata(anu.id)
+let participants = anu.participants
+for (let num of participants) {
+// Get Profile Picture User
+try {
+ppuser = await classic.profilePictureUrl(num, 'image')
+} catch {
+ppuser = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
+}
+
+// Get Profile Picture Group
+try {
+ppgroup = await classic.profilePictureUrl(anu.id, 'image')
+} catch {
+ppgroup = 'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60'
+}
+
+if (anu.action == 'add') {
+classic.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Haii Kak *@${num.split("@")[0]}* Selamat Datang Di Group *${metadata.subject}* 👋
+ ▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Terima Kasih Sudah Bergabung Jangan Lupa Baca Deskripsi Yah
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Creator : https://wa.me/254742491666`})
+} else if (anu.action == 'remove') {
+classic.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `Karena Untuk Setiap Ucapan Selamat Datang Akan Selalu Diakhiri Dengan Ucapan Selamat Tinggal 👋
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Selamat Tinggal *@${num.split("@")[0]}* Di Group *${metadata.subject}*
+▬▭▬▭▬▭▬▭▬▬▭▬▭▬
+Creator : https://wa.me/2547424916666`})
+} else if (anu.action == 'promote') {
+classic.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Ciee Jadi Admin Di Group ${metadata.subject} ${metadata.desc}`  })
+} else if (anu.action == 'demote') {
+classic.sendMessage(anu.id, { image: { url: ppuser }, mentions: [num], caption: `@${num.split('@')[0]} Ciee Di Hapus Jadi Admin Di Group ${metadata.subject} ${metadata.desc}`})
+  }
+}
+} catch (err) {
+console.log(err)
+}
+})
+//=================================================//
+classic.ev.on('contacts.update', update => {
+for (let contact of update) {
+let id = classic.decodeJid(contact.id)
+if (store && store.contacts) store.contacts[id] = { id, name: contact.notify }}})
+//=================================================//
+classic.getName = (jid, withoutContact  = false) => {
+id = classic.decodeJid(jid)
+withoutContact = zetsubo.withoutContact || withoutContact 
+let v
+if (id.endsWith("@g.us")) return new Promise(async (resolve) => {
+v = store.contacts[id] || {}
+if (!(v.name || v.subject)) v = classic.groupMetadata(id) || {}
+resolve(v.name || v.subject || PhoneNumber('+' + id.replace('@s.whatsapp.net', '')).getNumber('international'))
+})
+else v = id === '0@s.whatsapp.net' ? {
+id,
+name: 'WhatsApp'
+} : id === classic.decodeJid(classic.user.id) ?
+classic.user :
+(store.contacts[id] || {})
+return (withoutContact ? '' : v.name) || v.subject || v.verifiedName || PhoneNumber('+' + jid.replace('@s.whatsapp.net', '')).getNumber('international')}
+//=================================================//
+classic.sendContact = async (jid, kon, quoted = '', opts = {}) => {
+let list = []
+for (let i of kon) {
+list.push({
+displayName: await classic.getName(i + '@s.whatsapp.net'),
+vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await classic.getName(i + '@s.whatsapp.net')}\nFN:${await classic.getName(i + '@s.whatsapp.net')}\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Ponsel\nitem2.EMAIL;type=INTERNET:samuelcircute@gmail.com\nitem2.X-ABLabel:Email\nitem3.https://chat.whatsapp.com/EPSGKau0IVi7J5lyOJO7Jk\nitem3.X-ABLabel:Instagram\nitem4.ADR:;;Indonesia;;;;\nitem4.X-ABLabel:Region\nEND:VCARD`})}
+//=================================================//
+classic.sendMessage(jid, { contacts: { displayName: `${list.length} Kontak`, contacts: list }, ...opts }, { quoted })}
+//=================================================//
+//Kalau Mau Self Lu Buat Jadi false
+classic.public = true
+//=================================================//
+//=================================================//
+classic.ev.on('creds.update', saveCreds)
+ //=================================================//
+ classic.downloadMediaMessage = async (message) => {
+let mime = (message.msg || message).mimetype || ''
+let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
+const stream = await downloadContentFromMessage(message, messageType)
+let buffer = Buffer.from([])
+for await(const chunk of stream) {
+buffer = Buffer.concat([buffer, chunk])}
+return buffer} 
+ //=================================================//
+ classic.sendImage = async (jid, path, caption = '', quoted = '', options) => {
+let buffer = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+return await classic.sendMessage(jid, { image: buffer, caption: caption, ...options }, { quoted })}
+//=================================================//
+classic.sendText = (jid, text, quoted = '', options) => classic.sendMessage(jid, { text: text, ...options }, { quoted })
+//=================================================//
+classic.sendTextWithMentions = async (jid, text, quoted, options = {}) => classic.sendMessage(jid, { text: text, contextInfo: { mentionedJid: [...text.matchAll(/@(\d{0,16})/g)].map(v => v[1] + '@s.whatsapp.net') }, ...options }, { quoted })
+ //=================================================//
+classic.sendImageAsSticker = async (jid, path, quoted, options = {}) => {
+let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+let buffer
+if (options && (options.packname || options.author)) {
+buffer = await writeExifImg(buff, options)
+} else {
+buffer = await imageToWebp(buff)}
+await classic.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+return buffer}
+ //=================================================//
+classic.sendVideoAsSticker = async (jid, path, quoted, options = {}) => {
+let buff = Buffer.isBuffer(path) ? path : /^data:.*?\/.*?;base64,/i.test(path) ? Buffer.from(path.split`,`[1], 'base64') : /^https?:\/\//.test(path) ? await (await getBuffer(path)) : fs.existsSync(path) ? fs.readFileSync(path) : Buffer.alloc(0)
+let buffer
+if (options && (options.packname || options.author)) {
+buffer = await writeExifVid(buff, options)
+} else {
+buffer = await videoToWebp(buff)}
+await classic.sendMessage(jid, { sticker: { url: buffer }, ...options }, { quoted })
+return buffer}
+ //=================================================//
+classic.ev.on("messages.upsert", async (chatUpdate) => {
+    //console.log(JSON.stringify(chatUpdate, undefined, 2))
+    try {
+    mek = chatUpdate.messages[0];
+      if (autoviewstatus === 'TRUE' && mek.key && mek.key.remoteJid === "status@broadcast") {
+
+         classic.readMessages([mek.key]);
+
+}
+      mek = chatUpdate.messages[0];
+      if (!mek.message) return;
+      mek.message = Object.keys(mek.message)[0] === "ephemeralMessage" ? mek.message.ephemeralMessage.message : mek.message;
+      if (mek.key && mek.key.remoteJid === "status@broadcast") return;
+      if (!classic.public && !mek.key.fromMe && chatUpdate.type === "notify") return;
+      if (mek.key.id.startsWith("BAE5") && mek.key.id.length === 16) return;
+      m = smsg(classic, mek, store);
+    } catch (err) {
+      console.log(err);
+    }
+  })
+//==================================================//
+ classic.downloadAndSaveMediaMessage = async (message, filename, attachExtension = true) => {
+let quoted = message.msg ? message.msg : message
+let mime = (message.msg || message).mimetype || ''
+let messageType = message.mtype ? message.mtype.replace(/Message/gi, '') : mime.split('/')[0]
+const stream = await downloadContentFromMessage(quoted, messageType)
+let buffer = Buffer.from([])
+for await(const chunk of stream) {
+buffer = Buffer.concat([buffer, chunk])}
+let type = await FileType.fromBuffer(buffer)
+trueFileName = attachExtension ? (filename + '.' + type.ext) : filename
+// save to file
+await fs.writeFileSync(trueFileName, buffer)
+return trueFileName}
+//=================================================
+ classic.cMod = (jid, copy, text = '', sender = classic.user.id, options = {}) => {
+//let copy = message.toJSON()
+let mtype = Object.keys(copy.message)[0]
+let isEphemeral = mtype === 'ephemeralMessage'
+if (isEphemeral) {
+mtype = Object.keys(copy.message.ephemeralMessage.message)[0]}
+let msg = isEphemeral ? copy.message.ephemeralMessage.message : copy.message
+let content = msg[mtype]
+if (typeof content === 'string') msg[mtype] = text || content
+else if (content.caption) content.caption = text || content.caption
+else if (content.text) content.text = text || content.text
+if (typeof content !== 'string') msg[mtype] = {
+...content,
+...options}
+if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+else if (copy.key.participant) sender = copy.key.participant = sender || copy.key.participant
+if (copy.key.remoteJid.includes('@s.whatsapp.net')) sender = sender || copy.key.remoteJid
+else if (copy.key.remoteJid.includes('@broadcast')) sender = sender || copy.key.remoteJid
+copy.key.remoteJid = jid
+copy.key.fromMe = sender === classic.user.id
+return proto.WebMessageInfo.fromObject(copy)}
+classic.sendFile = async(jid, PATH, fileName, quoted = {}, options = {}) => {
+let types = await classic.getFile(PATH, true)
+let { filename, size, ext, mime, data } = types
+let type = '', mimetype = mime, pathFile = filename
+if (options.asDocument) type = 'document'
+if (options.asSticker || /webp/.test(mime)) {
+let { writeExif } = require('./lib/sticker.js')
+let media = { mimetype: mime, data }
+pathFile = await writeExif(media, { packname: global.packname, author: global.packname2, categories: options.categories ? options.categories : [] })
+await fs.promises.unlink(filename)
+type = 'sticker'
+mimetype = 'image/webp'}
+else if (/image/.test(mime)) type = 'image'
+else if (/video/.test(mime)) type = 'video'
+else if (/audio/.test(mime)) type = 'audio'
+else type = 'document'
+await classic.sendMessage(jid, { [type]: { url: pathFile }, mimetype, fileName, ...options }, { quoted, ...options })
+return fs.promises.unlink(pathFile)}
+classic.parseMention = async(text) => {
+return [...text.matchAll(/@([0-9]{5,16}|0)/g)].map(v => v[1] + '@s.whatsapp.net')}
+//=================================================//
+classic.copyNForward = async (jid, message, forceForward = false, options = {}) => {
+let vtype
+if (options.readViewOnce) {
+message.message = message.message && message.message.ephemeralMessage && message.message.ephemeralMessage.message ? message.message.ephemeralMessage.message : (message.message || undefined)
+vtype = Object.keys(message.message.viewOnceMessage.message)[0]
+delete(message.message && message.message.ignore ? message.message.ignore : (message.message || undefined))
+delete message.message.viewOnceMessage.message[vtype].viewOnce
+message.message = {
+...message.message.viewOnceMessage.message}}
+let mtype = Object.keys(message.message)[0]
+let content = await generateForwardMessageContent(message, forceForward)
+let ctype = Object.keys(content)[0]
+let context = {}
+if (mtype != "conversation") context = message.message[mtype].contextInfo
+content[ctype].contextInfo = {
+...context,
+...content[ctype].contextInfo}
+const waMessage = await generateWAMessageFromContent(jid, content, options ? {
+...content[ctype],
+...options,
+...(options.contextInfo ? {
+contextInfo: {
+...content[ctype].contextInfo,
+...options.contextInfo}} : {})} : {})
+await classic.relayMessage(jid, waMessage.message, { messageId:  waMessage.key.id })
+return waMessage}
+//=================================================//
+classic.getFile = async (PATH, save) => {
+let res
+let data = Buffer.isBuffer(PATH) ? PATH : /^data:.*?\/.*?;base64,/i.test(PATH) ? Buffer.from(PATH.split`,`[1], 'base64') : /^https?:\/\//.test(PATH) ? await (res = await getBuffer(PATH)) : fs.existsSync(PATH) ? (filename = PATH, fs.readFileSync(PATH)) : typeof PATH === 'string' ? PATH : Buffer.alloc(0)
+//if (!Buffer.isBuffer(data)) throw new TypeError('Result is not a buffer')
+let type = await FileType.fromBuffer(data) || {
+mime: 'application/octet-stream',
+ext: '.bin'
+}
+filename = path.join(__filename, '../src/' + new Date * 1 + '.' + type.ext)
+if (data && save) fs.promises.writeFile(filename, data)
+return {
+res,
+filename,
+	size: await getSizeMedia(data),
+...type,
+data
+}
+}
+classic.serializeM = (m) => smsg(classic, m, store)
+classic.ev.on("connection.update", async (update) => {
+const { connection, lastDisconnect } = update;
+if (connection === "close") {
+  let reason = new Boom(lastDisconnect?.error)?.output.statusCode;
+  if (reason === DisconnectReason.badSession) {
+console.log(`Bad Session File, Please Delete Session and Scan Again`);
+process.exit();
+  } else if (reason === DisconnectReason.connectionClosed) {
+console.log("Connection closed, reconnecting....");
+connectToWhatsApp();
+  } else if (reason === DisconnectReason.connectionLost) {
+console.log("Connection Lost from Server, reconnecting...");
+connectToWhatsApp();
+  } else if (reason === DisconnectReason.connectionReplaced) {
+console.log("Connection Replaced, Another New Session Opened, Please Restart Bot");
+process.exit();
+  } else if (reason === DisconnectReason.loggedOut) {
+console.log(`Device Logged Out, Please Delete Folder Session yusril and Scan Again.`);
+process.exit();
+  } else if (reason === DisconnectReason.restartRequired) {
+console.log("Restart Required, Restarting...");
+connectToWhatsApp();
+  } else if (reason === DisconnectReason.timedOut) {
+console.log("Connection TimedOut, Reconnecting...");
+connectToWhatsApp();
+  } else {
+console.log(`Unknown DisconnectReason: ${reason}|${connection}`);
+connectToWhatsApp();
+  }
+}
+// console.log('Connected...', update)
+});
+return classic
+}
+connectToWhatsApp()
+let file = require.resolve(__filename)
+fs.watchFile(file, () => {
+fs.unwatchFile(file)
+console.log(chalk.redBright(`Update ${__filename}`))
+delete require.cache[file]
+require(file)
+})
